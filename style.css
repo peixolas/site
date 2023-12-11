@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+form {
+width: 300px; 
+height: 400px;
+border: 1px solid #dbdbdb;
+margin: 40px auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+
+input,
+button {
+    width: 150px;
+    border-radius: 4px;
+    padding: 4px; 
+}
+
+button  {
+    height: 26px;
+    background-color: cadetblue;
+    color: white;
+    border: 0;
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 80px;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a {
+font-size: 18px;
+color: #fff;
+font-weight: 500;
+text-decoration: none; 
+margin-left: 40px;
+}
+
+.section-1{
+background-color: #f3e4e4;
+display: flex;
+justify-content: space-between;
+padding: 40px;
+width: 100%;
+margin: 3rem auto 0 auto;
+}
+.section-1 img{
+    height: 250px;
+}
+
+.section-1 p{
+    color: rgb(97, 95, 95)
+}
+
+.row {margin: 0 -5px}
+
+.card {
+    flex-direction: row-reverse;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  
+    }
+    
+    .card-image {
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    }
+.game-1 {
+background-image: url(images/retro-8-bit-super-mario-console-game-background-high-resolution-wallpaper-vintage-gaming-fans_820074-238.avif);
+
+    }
+
+.game-2 {
+background-image: url(images/retro-8-bit-super-mario-console-game-background-high-resolution-wallpaper-vintage-gaming-fans_820074-247.avif);
+
+
+}
+
+.game-3{
+background-image: url(images/old-retro-video-game-background-retro-style-background_74656-1591.jpg);
+
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 168px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
